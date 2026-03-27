@@ -1,0 +1,59 @@
+# PCA Cancer Dataset Analysis
+
+## Overview
+This project applies Principal Component Analysis (PCA) to the breast cancer dataset from sklearn to identify essential variables and reduce dimensionality. 
+The dataset is reduced to two principal components for visualization and analysis. Additionally, logistic regression is implemented for prediction (bonus task).
+
+## Dataset
+The dataset used is the Breast Cancer Wisconsin dataset from sklearn.datasets. It contains features computed from digitized images of breast masses.
+
+## Objectives
+- Identify important variables using PCA
+- Reduce dataset to 2 principal components
+- Visualized results with clear plots
+- Calculated explained variance
+- Bonus: Trained Logistic Regression model using the 2 PCA components
+
+## Folder Structure.
+
+milestone-2-pca-cancer/
+├── pca_cancer_analysis.py
+├── README.md
+├── requirements.txt
+└── outputs/ 
+ - pca_scatterplot.png – 2D visualization of malignant vs benign cases
+ - scree_plot.png – Explained variance plot
+ - confusion_matrix.png – Model performance (bonus)
+
+## How to Run 
+1. Install required libraries:
+
+pip install numpy pandas matplotlib scikit-learn
+
+2. Run the script:
+
+python pca_cancer_analysis.py
+
+## Instructions to Run 
+- The script loads the dataset automatically.
+- Data is standardized before PCA.
+- PCA reduces features to 2 components.
+- A scatter plot is generated and saved as `pca_plot.png`.
+- Logistic regression is trained and evaluated.
+- Important features are displayed in the terminal.
+
+## Output
+- PCA visualization plot
+- Explained variance ratio
+- Model accuracy and classification report
+- Top contributing variables
+
+## Results and Interpretation
+
+- The first two principal components capture a significant portion of the dataset variance.
+- The PCA scatter plot shows a clear separation between the classes.
+- Logistic regression achieved high accuracy, indicating that dimensionality reduction did not significantly reduce predictive performance.
+
+## Conclusion
+PCA successfully reduced the dataset from 30 features to 2 components while retaining key information. This made the dataset easier to visualize and analyze. 
+The logistic regression model performed well, demonstrating that reduced dimensions can still support accurate predictions.
