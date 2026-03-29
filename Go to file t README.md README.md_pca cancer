@@ -18,17 +18,17 @@ The dataset used is the Breast Cancer Wisconsin dataset from sklearn.datasets. I
 
 milestone-2-pca-cancer/
 ├── pca_cancer_analysis.py
-├── README.md
+├── README.md - this file
 ├── requirements.txt
 └── outputs/ 
- - pca_scatterplot.png – 2D visualization of malignant vs benign cases
+ - pca_scatterplot.png – visualization of malignant vs benign cases
  - scree_plot.png – Explained variance plot
  - confusion_matrix.png – Model performance (bonus)
 
 ## How to Run 
 1. Install required libraries:
 
-pip install numpy pandas matplotlib scikit-learn
+pip install numpy, pandas, matplotlib, seaborn, scikit-learn
 
 2. Run the script:
 
