@@ -1,4 +1,4 @@
-# PCA Cancer Dataset Analysis
+# Milestone 2: Principal Component Analysis (PCA) - Anderson Cancer Center
 
 ## Overview
 This project applies Principal Component Analysis (PCA) to the breast cancer dataset from sklearn to identify essential variables and reduce dimensionality. 
@@ -7,9 +7,13 @@ The dataset is reduced to two principal components for visualization and analysi
 ## Dataset
 The dataset used is the Breast Cancer Wisconsin dataset from sklearn.datasets. It contains features computed from digitized images of breast masses.
 
-## Objectives
-- Identify important variables using PCA
-- Reduce dataset to 2 principal components
+## Objective
+Use Principal Component Analysis (PCA) to identify the most essential variables from the Breast Cancer dataset and reduce dimensionality to 2 components for donor funding analysis.
+
+## Tasks Completed
+- Loaded Breast Cancer dataset from `sklearn.datasets`
+- Standardized features
+- Applied PCA and reduced to two (2) principal components.
 - Visualized results with clear plots
 - Calculated explained variance
 - Bonus: Trained Logistic Regression model using the 2 PCA components
@@ -21,7 +25,7 @@ milestone-2-pca-cancer/
 ├── README.md - this file
 ├── requirements.txt
 └── outputs/ 
- - pca_scatterplot.png – visualization of malignant vs benign cases
+ - pca_scatterplot.png – 2D visualization of malignant vs benign cases
  - scree_plot.png – Explained variance plot
  - confusion_matrix.png – Model performance (bonus)
 
@@ -57,3 +61,8 @@ python pca_cancer_analysis.py
 ## Conclusion
 PCA successfully reduced the dataset from 30 features to 2 components while retaining key information. This made the dataset easier to visualize and analyze. 
 The logistic regression model performed well, demonstrating that reduced dimensions can still support accurate predictions.
+
+
+Submitted by: Jule  Ahebwa
+Course: Module 5 Assignment_Milestone Assignment 2: Principal Component Analysis
+Date: 29th March 2026
